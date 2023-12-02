@@ -21,7 +21,7 @@ const FormLogin = () => {
         event.preventDefault();
 
         // validasi inputan
-        if (user.username === "" || user.password == "") { 
+        if (user.username === "" || user.password === "") { 
             toast.error("Username dan Password Tidak Boleh Kosong!"); 
             return;
         } else {

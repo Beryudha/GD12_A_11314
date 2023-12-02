@@ -37,7 +37,7 @@ const TopNavbar = ({ routes }) => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
                         {routes?.map((route, index) => (
-                            <Nav. Link key={index} onClick={() => navigate(route.path)}>
+                            <Nav.Link key={index} onClick={() => navigate(route.path)}>
                                 <Button variant={location.pathname == route.path ? "primary": "light"} className="w-100">
                                     {route.name}
                                 </Button>
